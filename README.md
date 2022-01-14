@@ -1,4 +1,4 @@
-# Reproducible_Research_Project_2
+# Reproducible Research - Course Project-2
 
 ## Types of severe weather events which have huge impact on public health and economic problems
 
