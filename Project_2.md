@@ -30,7 +30,7 @@ Read a file in table format
 StormData <- read.csv(bzfile("StormData"),sep = ",",header=TRUE)
 ```
 
-Property damage estimates were entered as actual dollar amounts (the variable PROPDMG). But they were rounded to three significant digits, followed by an alphabetical character signifying the magnitude of the number, i.e., 1.55B for $1,550,000,000. Alphabetical characters used to signify magnitude include “K” for thousands, “M” for millions, and “B” for billions. So I created a new variable PROPDMGEXP2 and assigned conditionally "K" = 1000, "M" = 1000000, "B" = 1000000000, in other cases 1. These variables are multiplied in the next step.
+Property damage estimates were entered as actual dollar amounts (the variable PROPDMG). But they were rounded to three significant digits, followed by an alphabetical character signifying the magnitude of the number, i.e., 1.55B for $1,550,000,000. Alphabetical characters used to signify magnitude include â€œKâ€ for thousands, â€œMâ€ for millions, and â€œBâ€ for billions. So I created a new variable PROPDMGEXP2 and assigned conditionally "K" = 1000, "M" = 1000000, "B" = 1000000000, in other cases 1. These variables are multiplied in the next step.
 
 
 ```r
@@ -86,7 +86,7 @@ StormData %>%
       theme_light()
 ```
 
-![](Project_2_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![](Project_2_files/unnamed-chunk-5-1.png)<!-- -->
 
 The second plot presents Injuries by Event type
 
@@ -106,7 +106,7 @@ StormData %>%
       theme_light()
 ```
 
-![](Project_2_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](Project_2_files/unnamed-chunk-6-1.png)<!-- -->
 
 # Which types of events have the greatest economic consequences?
 
@@ -129,7 +129,7 @@ StormData %>%
       theme_light()
 ```
 
-![](Project_2_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+![](Project_2_files/unnamed-chunk-7-1.png)<!-- -->
 
 # Conclusion
 
